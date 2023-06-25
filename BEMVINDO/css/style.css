@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(197, 197, 197);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5px;
+}
+fieldset{
+    background-color: #ffffff;
+    width: 15vw;
+    text-align: left;
+} 
+label{
+    font-size:larger;
+}
+input{
+    font-style:italic;
+}
+
