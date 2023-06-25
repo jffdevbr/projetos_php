@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>seja bem vindo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/ac9313d00e.js" crossorigin="anonymous"></script>    
+</head>
+
+<body>
+    <form action="bemvindo.php" method="get">
+
+        <label for="nome" id="nomeid">Nome</label><br>
+        <input type="text" name="txtNome" id="nome"><br><br>
+        <label>Gênero</label>
+        <fieldset> 
+            <i class="fa-solid fa-mars" style="color: #005eff;"></i>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label for="masc">Masculino</label>
+             <br>   
+            <i class="fa-solid fa-venus" style="color: #ff0095;"></i>
+            <input type="radio" name="genero" id="feminino" value="feminino">
+            <label for="femi">Feminino</label>
+             <br>   
+            <i class="fa-solid fa-neuter" style="color: #3700ff;"></i>
+            <input type="radio" name="genero" id="outro" value="outro">
+            <label for="outro">Outro</label><br>
+                
+            <input type="submit" value="IR" id="ir">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

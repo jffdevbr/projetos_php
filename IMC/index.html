@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>IMC</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo">Calculadora de IMC</h1>
+    </header>
+    <main>
+        <section>
+            <form action="imc.php" method="post">
+                <div class="campo">
+                    <div class="campo_perguntas">
+                        <label class="pergunta" for="text">Idade: </label>
+                        <label class="pergunta" for="text">Peso(kg): </label>
+                        <label class="pergunta" for="text">Altura(m): </label>
+                        <label class="pergunta" for="text">Sexo biológico: </label>    
+                    </div>
+                    <div class="campo_respostas">
+                        <input class="resposta" type="number" name="idade">
+                        <input class="resposta" type="number" name="peso" step="0.1" min="0">
+                        <input class="resposta" type="number" name="altura" step="0.01" min="0">
+                        <div class="resposta">
+                            <input type="radio" name="radiobtn" value="M">
+                            <label for="text">Macho</label>
+                            <input type="radio" name="radiobtn" value="F">
+                            <label for="text">Fêmea</label>
+                            <input type="radio" name="radiobtn" value="I">
+                            <label for="text">Intersexo</label>
+                        </div>    
+                    </div>     
+                </div>
+                <input id="submitbtn" type="submit" value="CALCULAR">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por jffdevbr</p>
+    </footer>
+</body>
+</html>

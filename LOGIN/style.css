@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+.body1{
+    background-color:#d3d3d3;
+    font-family:'Raleway', sans-serif;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin:15%;
+}
+.body2{
+    background-color:#d3d3d3;
+    font-family:'Raleway', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin:15%;
+}
+
+.container{
+    background-color:#00000054;
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.img{
+    height:50px;
+    width:50px;
+    padding-bottom:10px;
+}
+.imgB{
+    height:200px;
+    width:200px;
+}
+.campo{
+    display:flex;
+    flex-direction: row;
+    justify-content:right;
+}
+#campoSenha{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.pedido{
+    padding-right: 20px;
+}
+.resposta{
+    font-family: 'Raleway', sans-serif;
+    border:none;
+    background-color: #ffffff3a;
+    text-align: center;
+}
+.btn{
+    border:none;
+    background-color:#00000011;
+    width: 320px;
+    font-family:'Raleway', sans-serif;
+}
+.btn:hover{
+    background-color: #00000071;
+}
+.fraseA{
+    color:green;
+}
+.fraseN{
+    color:red;
+}
+.gif{
+    height:200px;
+    width: 300px;
+}
